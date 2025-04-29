@@ -6,8 +6,13 @@ async function getAllEnrollments() {
 }
 
 async function enrollStudent(studentId, courseId, semester) {
+    const enrolled = await checkIfAlreadyEnrolled(studentId, courseId, semester);
+    if(enrolled) {
+        throw new Error(`${studentId} is already enrolled in ${courseId} during ${semester}`);
+    }
+
     const res = await pool.query(
-        'INSERT INTO enrollment (student_id, course_id, semester) VALUES ($1, $2, $3) RETURNING *',
+        'INSERT INTO enrollments (student_id, course_id, semester) VALUES ($1, $2, $3) RETURNING *',
         [studentId, courseId, semester]
     );
     return res.rows[0];
@@ -38,6 +43,16 @@ async function updateEnrollmentGrade(id, grade) {
 async function deleteEnrollment(id) {
     const res = await pool.query('DELETE FROM enrollment WHERE id = $1 RETURNING *', [id]);
     return res.rows[0];
+}
+
+async function checkIfAlreadyEnrolled(studentId, courseId, semester) {
+    const res = await pool.query(`
+        SELECT 1 FROM enrollments
+        WHERE student_id = $1
+        AND course_id = $2
+        AND semester = $3
+        LIMIT 1`, [studentId, courseId, semester]);
+    return res.rowCount > 0;
 }
 
 module.exports = {

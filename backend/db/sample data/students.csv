@@ -1,0 +1,101 @@
+id,name,email,major,enrollment_date
+1,Casey Johnson,casey.johnson1@example.com,English,2023-10-27
+2,Alex Jones,alex.jones2@example.com,Psychology,2023-06-12
+3,Robin Garcia,robin.garcia3@example.com,Computer Science,2023-03-25
+4,Dana Brown,dana.brown4@example.com,Computer Science,2023-07-13
+5,Morgan Rodriguez,morgan.rodriguez5@example.com,Psychology,2023-09-06
+6,Jordan Williams,jordan.williams6@example.com,Physics,2023-04-06
+7,Morgan Williams,morgan.williams7@example.com,English,2023-11-15
+8,Alex Garcia,alex.garcia8@example.com,Music,2023-03-20
+9,Casey Williams,casey.williams9@example.com,History,2023-09-21
+10,Taylor Martinez,taylor.martinez10@example.com,English,2023-06-04
+11,Jamie Smith,jamie.smith11@example.com,Culinary Arts,2023-08-02
+12,Taylor Brown,taylor.brown12@example.com,Psychology,2023-09-17
+13,Sam Brown,sam.brown13@example.com,Biology,2023-09-18
+14,Robin Davis,robin.davis14@example.com,Culinary Arts,2023-06-04
+15,Chris Jones,chris.jones15@example.com,Culinary Arts,2023-03-20
+16,Jamie Martinez,jamie.martinez16@example.com,Physics,2023-08-15
+17,Alex Brown,alex.brown17@example.com,Engineering,2023-06-25
+18,Robin Johnson,robin.johnson18@example.com,Psychology,2023-11-01
+19,Alex Smith,alex.smith19@example.com,Computer Science,2023-06-13
+20,Alex Johnson,alex.johnson20@example.com,History,2023-02-23
+21,Taylor Martinez,taylor.martinez21@example.com,Engineering,2023-04-25
+22,Alex Davis,alex.davis22@example.com,Physics,2023-04-17
+23,Jordan Rodriguez,jordan.rodriguez23@example.com,Music,2023-06-25
+24,Chris Martinez,chris.martinez24@example.com,Music,2023-08-14
+25,Jamie Garcia,jamie.garcia25@example.com,Engineering,2023-10-07
+26,Taylor Davis,taylor.davis26@example.com,Engineering,2023-08-04
+27,Jordan Williams,jordan.williams27@example.com,Engineering,2023-04-09
+28,Casey Jones,casey.jones28@example.com,History,2023-08-10
+29,Casey Brown,casey.brown29@example.com,History,2023-04-18
+30,Robin Miller,robin.miller30@example.com,Culinary Arts,2023-02-03
+31,Robin Smith,robin.smith31@example.com,Mathematics,2023-11-23
+32,Taylor Jones,taylor.jones32@example.com,Music,2023-02-21
+33,Alex Smith,alex.smith33@example.com,Physics,2023-04-07
+34,Taylor Williams,taylor.williams34@example.com,Culinary Arts,2023-07-24
+35,Alex Jones,alex.jones35@example.com,Computer Science,2023-07-25
+36,Robin Martinez,robin.martinez36@example.com,Physics,2023-11-04
+37,Sam Johnson,sam.johnson37@example.com,English,2023-06-16
+38,Robin Garcia,robin.garcia38@example.com,Physics,2023-03-15
+39,Alex Brown,alex.brown39@example.com,History,2023-09-07
+40,Chris Martinez,chris.martinez40@example.com,English,2023-09-15
+41,Sam Davis,sam.davis41@example.com,Psychology,2023-07-15
+42,Casey Miller,casey.miller42@example.com,Computer Science,2023-03-25
+43,Jamie Davis,jamie.davis43@example.com,Music,2023-10-20
+44,Jordan Garcia,jordan.garcia44@example.com,Biology,2023-02-02
+45,Robin Garcia,robin.garcia45@example.com,Biology,2023-10-03
+46,Chris Garcia,chris.garcia46@example.com,Music,2023-01-28
+47,Jamie Miller,jamie.miller47@example.com,English,2023-03-12
+48,Chris Brown,chris.brown48@example.com,Biology,2023-05-08
+49,Jamie Jones,jamie.jones49@example.com,Psychology,2023-03-14
+50,Chris Williams,chris.williams50@example.com,Biology,2023-04-03
+51,Dana Jones,dana.jones51@example.com,History,2023-09-19
+52,Alex Davis,alex.davis52@example.com,History,2023-09-08
+53,Sam Williams,sam.williams53@example.com,History,2023-09-12
+54,Dana Rodriguez,dana.rodriguez54@example.com,History,2023-12-07
+55,Dana Miller,dana.miller55@example.com,Physics,2023-06-08
+56,Casey Williams,casey.williams56@example.com,Physics,2023-12-16
+57,Morgan Williams,morgan.williams57@example.com,Computer Science,2023-01-04
+58,Morgan Martinez,morgan.martinez58@example.com,Mathematics,2023-07-10
+59,Sam Smith,sam.smith59@example.com,Engineering,2023-02-12
+60,Dana Johnson,dana.johnson60@example.com,Computer Science,2023-05-07
+61,Chris Jones,chris.jones61@example.com,Engineering,2023-08-27
+62,Jordan Johnson,jordan.johnson62@example.com,History,2023-05-28
+63,Jamie Martinez,jamie.martinez63@example.com,Computer Science,2023-09-04
+64,Chris Davis,chris.davis64@example.com,Engineering,2023-02-07
+65,Chris Jones,chris.jones65@example.com,Psychology,2023-03-21
+66,Sam Smith,sam.smith66@example.com,Psychology,2023-02-23
+67,Jordan Williams,jordan.williams67@example.com,Mathematics,2023-09-27
+68,Chris Miller,chris.miller68@example.com,History,2023-01-07
+69,Robin Smith,robin.smith69@example.com,Computer Science,2023-02-17
+70,Chris Smith,chris.smith70@example.com,Physics,2023-10-27
+71,Casey Williams,casey.williams71@example.com,Engineering,2023-12-16
+72,Sam Williams,sam.williams72@example.com,Mathematics,2023-12-14
+73,Casey Johnson,casey.johnson73@example.com,English,2023-09-26
+74,Dana Johnson,dana.johnson74@example.com,Engineering,2023-07-22
+75,Jordan Garcia,jordan.garcia75@example.com,Physics,2023-10-10
+76,Chris Williams,chris.williams76@example.com,Mathematics,2023-07-06
+77,Dana Davis,dana.davis77@example.com,Biology,2023-07-05
+78,Taylor Williams,taylor.williams78@example.com,Culinary Arts,2023-03-11
+79,Jamie Smith,jamie.smith79@example.com,Biology,2023-08-16
+80,Robin Williams,robin.williams80@example.com,Psychology,2023-11-01
+81,Jamie Miller,jamie.miller81@example.com,History,2023-09-04
+82,Casey Williams,casey.williams82@example.com,Physics,2023-04-18
+83,Casey Garcia,casey.garcia83@example.com,English,2023-10-14
+84,Robin Brown,robin.brown84@example.com,Physics,2023-01-22
+85,Chris Davis,chris.davis85@example.com,Biology,2023-04-27
+86,Chris Rodriguez,chris.rodriguez86@example.com,Culinary Arts,2023-04-12
+87,Alex Garcia,alex.garcia87@example.com,Music,2023-03-02
+88,Dana Williams,dana.williams88@example.com,Biology,2023-08-23
+89,Jordan Garcia,jordan.garcia89@example.com,Biology,2023-09-25
+90,Morgan Jones,morgan.jones90@example.com,Mathematics,2023-06-07
+91,Jamie Rodriguez,jamie.rodriguez91@example.com,Biology,2023-04-03
+92,Taylor Rodriguez,taylor.rodriguez92@example.com,Psychology,2023-08-21
+93,Dana Williams,dana.williams93@example.com,Music,2023-09-08
+94,Robin Jones,robin.jones94@example.com,Physics,2023-07-16
+95,Robin Miller,robin.miller95@example.com,Computer Science,2023-12-15
+96,Casey Miller,casey.miller96@example.com,Engineering,2023-08-05
+97,Taylor Rodriguez,taylor.rodriguez97@example.com,Biology,2023-07-12
+98,Jamie Rodriguez,jamie.rodriguez98@example.com,Computer Science,2023-02-07
+99,Taylor Rodriguez,taylor.rodriguez99@example.com,Psychology,2023-03-23
+100,Morgan Brown,morgan.brown100@example.com,Engineering,2023-12-02
