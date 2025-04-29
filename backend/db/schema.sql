@@ -15,7 +15,7 @@ CREATE TABLE enrollments (
   id SERIAL PRIMARY KEY,
   student_id INT REFERENCES students(id) ON DELETE CASCADE,
   course_id INT REFERENCES courses(id) ON DELETE CASCADE,
-  grade VARCHAR(2) CHECK (grade IN ('A', 'B', 'C', 'D', 'F', 'W')),
+  grade VARCHAR(2) DEFAULT 'IP' CHECK (grade IN ('A', 'B', 'C', 'D', 'F', 'W', 'IP')),
   semester VARCHAR(20),
   UNIQUE(student_id, course_id, semester) -- prevent double enrollment
 );
