@@ -3,6 +3,12 @@ const pool = require('./db/db');
 
 const app = express();
 app.use(express.json());
+app.use((req, res, next) => {
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl} from ${req.ip}`);
+    next();
+});  
+
+app.use('/students', require('./routes/students'));
 
 app.get('/test-db', async (req, res) => {
     try {
