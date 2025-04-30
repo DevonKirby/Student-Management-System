@@ -13,7 +13,7 @@ async function createCourse({ title, department, credits }) {
     return res.rows[0];
 }
 
-async function updateCourse(id, {title, department, credits} ) {
+async function updateCourse(id, { title, department, credits }) {
     const res = await pool.query(
         'UPDATE courses SET title = $1, department = $2, credits = $3 WHERE id = $4 RETURNING *',
         [title, department, credits, id]

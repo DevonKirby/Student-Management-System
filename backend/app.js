@@ -10,6 +10,7 @@ app.use((req, res, next) => {
 
 app.use('/students', require('./routes/students'));
 app.use('/courses', require('./routes/courses'));
+app.use('/enrollments', require('./routes/enrollments'));
 
 app.get('/test-db', async (req, res) => {
     try {
