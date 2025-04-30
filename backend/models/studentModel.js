@@ -5,7 +5,7 @@ async function getAllStudents() {
     return res.rows;
 }
 
-async function createStudent({ name, email, major}) {
+async function createStudent({ name, email, major }) {
     const res = await pool.query(
         'INSERT INTO students (name, email, major) VALUES ($1, $2, $3) RETURNING *',
         [name, email, major]

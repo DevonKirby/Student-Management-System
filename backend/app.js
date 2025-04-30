@@ -9,6 +9,7 @@ app.use((req, res, next) => {
 });  
 
 app.use('/students', require('./routes/students'));
+app.use('/courses', require('./routes/courses'));
 
 app.get('/test-db', async (req, res) => {
     try {
